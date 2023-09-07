@@ -10,6 +10,7 @@ export const config: Config = {
     // Angular target
     {
       type: 'dist',
+      esmLoaderPath: '../loader',
     },
     angularOutputTarget({
       componentCorePackage: 'stencil-library',
