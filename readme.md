@@ -1,7 +1,7 @@
-I've tried with @stencil/core 3.4.2 and 4.2.0
-I'm using "@stencil/angular-output-target": "^0.8.1"
+- @stencil/core 3.4.2 and 4.2.0
+- @stencil/angular-output-target: ^0.8.1
 
-I'm building a custom-component which uses @ionic/core to render some components. I've found different issues.
+Building a custom-component which uses @ionic/core to render some components:
 
 1. In stencil.config.ts I've defined `namespace: 'CustomComonentNs'` but anyway the `components.d.ts` generates:
 ```ts
