@@ -12,7 +12,7 @@ export namespace Components {
 
 If this is fixed, @stencil/angular-output-target should also import and generate components.ts from corrected namespace.
 
-2. The generated component.ts includes **all** components from @ionic/core, it does not filter the components really used. In example, the `custom-component` only uses `ion-content` but in generated `angular-workspace/projects/component-library/src/lib/stencil-generated/component.ts` I can find:
+2. The generated component.ts includes **all** components from @ionic/core, it does not filter the components really used. In example, the `custom-component` only uses `ion-content` but in generated `angular-workspace/projects/component-library/src/lib/stencil-generated/component.ts` we can find:
 
 ```ts
 import { Components } from 'custom-component';

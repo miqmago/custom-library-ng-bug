@@ -2,7 +2,7 @@ import { angularOutputTarget } from '@stencil/angular-output-target';
 import { Config } from '@stencil/core';
 
 export const config: Config = {
-  namespace: 'stencil-library',
+  namespace: 'CustomComonentNs',
   outputTargets: [
     // By default, the generated proxy components will
     // leverage the output from the `dist` target, so we
